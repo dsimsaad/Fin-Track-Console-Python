@@ -8,7 +8,7 @@ import utils
 def talk_to_mark():
     os.system("clear")
     utils.show_title()
-    client = genai.Client(api_key="AIzaSyA9NYzoOJZbs1SpRTF5oes6G8h7MkoUPNc")
+    client = genai.Client(api_key="")
 
     MARK_PROMPT = """
 You are Mark, an AI financial assistant for Fin-Track Plus.
